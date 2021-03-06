@@ -1,6 +1,6 @@
-# RhetoricalFactor-analysis
+# PoliticalRhetoric-analysis
 Emma Tarcson
 
-Title: Analyzing Common Factors in Rhetoric and Persuasion
+Title: Analyzing Political Rhetoric
 
-Summary: This term project is about common rhetorical devices used to build effectiveness within an argument.
+Summary: This term project is about using the rhetoric in Political speech and seeing where it differs between Democratic text and Republican text
