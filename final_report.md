@@ -54,6 +54,31 @@ Third, I imported the platforms and made a dataframe, which ended up just being 
 During this entire notebook, you'll noticed that I am adding full texts of the platforms, debates, and speeches to this thing called main.csv. This was entirely so that I'd have all the text in one place.
 
 ## Analysis
+For the analysis portion of this project, I focused on the differences/similarities between Republican and Democrat texts and the manner of which that they come from.
+
+I came up with, what I believed, are the main functions of the convention speeches, debates, and platforms. A big factor in rhetoric is audience, so I thought about that in terms of the three "modes" of persuasion.
+
+Here are the attribute I assigned with each before starting the analysis:
+
+> Convention Speeches
+* intent: to further stance directed at only one affiliation group
+* audience: otherwise already persuaded
+
+> Debates
+* intent: more spontaneous, fast-paced persuasion to all voters
+* audience: maybe have an idea of who they will vote for, and both affiliations are present
+
+> Platforms
+* intent: inform those who may not know much about each party about stances and views
+* audience: everyone
+
+
+After coming up with these, I formulated three hypotheses.
+
+First: I predicted that a classifier would be able to classify R or D most accurately with the speeches, then the debates, then the platforms. This was because I figured that the speeches would have the most polarizing words used, then the debates where the candidates might use "hot topic" words to persuade voters to their side, then the platform, which was considerably the most informative of documents
+
+Second: I wanted to take a peak into the adjectives used and see how that would influence a classifier with each "mode" of persuasion. Basically, that hypothesis included the theory that Republicans would use more adjectives, or more "heavy" adjectives. Also, that debates would have the most adjectives used, then the speeches, then the platform.
+
 #### Speech Analysis
 #### Debate Analysis
 #### Platform Analysis

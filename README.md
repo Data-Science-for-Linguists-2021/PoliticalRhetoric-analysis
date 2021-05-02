@@ -25,7 +25,7 @@ The data found in this notebook can be found in six places:
   * [Platform](https://github.com/Data-Science-for-Linguists-2021/PoliticalRhetoric-analysis/blob/main/analysis_notebooks/platform_analysis.ipynb) -This is the notebook where I focused on the platform data.
   * [Extra](https://github.com/Data-Science-for-Linguists-2021/PoliticalRhetoric-analysis/blob/main/analysis_notebooks/extra_analysis.ipynb) - This is the notebook where I did extra analysis/looked at things I was curious about.
 * [Images](https://github.com/Data-Science-for-Linguists-2021/PoliticalRhetoric-analysis/tree/main/images) - Folder for the saved png plots in the analysis.
-* Final Report - This is my final report for the project that includes my takeaways and final thoughts.
+* [Final Report](https://github.com/Data-Science-for-Linguists-2021/PoliticalRhetoric-analysis/blob/main/final_report.md) - This is my final report for the project that includes my takeaways and final thoughts.
 
 
 Visit my [Guestbook](https://github.com/Data-Science-for-Linguists-2021/Class-Lounge/blob/main/guestbooks/guestbook_emma.md)
