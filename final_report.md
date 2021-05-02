@@ -5,7 +5,17 @@ Emma Tarcson \| egt12@pitt.edu
 ## Table of Contents:
 * [Background](#Background)
 * [Data Collection](#Data-Collection)
+  * [Background for data](#Background-for-data)
+  * [Collecting data](#Collecting-data)
+  * [Issues with Licensing](#Issues-with-Licensing)
+  * [Cleaning the data](#Cleaning-the-data)
 * [Analysis](#Analysis)
+  * [Speech Analysis](#Speech-Analysis)
+  * [Debate Analysis](#Debate-Analysis)
+  * [Platform Analysis](#Platform-Analysis)
+  * [Extra Analysis](#Extra-Analysis)
+* [Results](#Results)
+* [Conclusion](#Conclusion)
 
 ### Background
 Initially, while trying to come up with an idea for this project, I did not know much about the world of data science. I did have a little bit of linguistics knowledge, though, so I decided to choose a topic that I had learned about the previous semester: Rhetorical Analysis.
@@ -44,3 +54,10 @@ Third, I imported the platforms and made a dataframe, which ended up just being 
 During this entire notebook, you'll noticed that I am adding full texts of the platforms, debates, and speeches to this thing called main.csv. This was entirely so that I'd have all the text in one place.
 
 ### Analysis
+#### Speech Analysis
+#### Debate Analysis
+#### Platform Analysis
+#### Extra Analysis
+
+### Results
+### Conclusion
