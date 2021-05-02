@@ -17,7 +17,7 @@ Emma Tarcson \| egt12@pitt.edu
 * [Results](#Results)
 * [Conclusion](#Conclusion)
 
-### Background
+## Background
 Initially, while trying to come up with an idea for this project, I did not know much about the world of data science. I did have a little bit of linguistics knowledge, though, so I decided to choose a topic that I had learned about the previous semester: Rhetorical Analysis.
 
 I had this idea that I would use all of python's wonderful language analysis tools (love you, nltk) to determine the "effectiveness" of the kinds of persuasive language features in text. This kind of left me with no where to start, though, as I, thanks to Na Rae and Joey, could not figure out how the heck I would prove "effectiveness". The project was also pretty two-dimensional, as well: only focusing on the frequency of persuasive devices.
@@ -26,7 +26,7 @@ So, on the final night that I was able to switch project ideas, I tweaked the co
 
 I was already using RNC and DNC speeches as the data as it would be polarizing and I thought that the conventions would be great sources for analysis persuasion, but then I also started thinking about how those conventions would be super polarizing and I wanted to take that further. So, I focused on politics, instead of just focusing on the vague "persuasive" text thing I had going before. This allowed me to play with future analysis ideas, as well as, play with an idea that I was already curious about: if Democratic and Republican text/speech is actually all that different or do they use similar ways of getting people to their side (rhetoric). This also allowed me to go even further and start thinking about if the mode or place of persuasion (speech, debate, platform) had any effect on that.
 
-### Data Collection
+## Data Collection
 #### Background for data
 2020 was a big year for politics. There was the presidential election, after all. This fact gave me a good bit of recent text I'd be able to use that all occurred within the past couple months of the year.
 
@@ -53,11 +53,11 @@ Third, I imported the platforms and made a dataframe, which ended up just being 
 
 During this entire notebook, you'll noticed that I am adding full texts of the platforms, debates, and speeches to this thing called main.csv. This was entirely so that I'd have all the text in one place.
 
-### Analysis
+## Analysis
 #### Speech Analysis
 #### Debate Analysis
 #### Platform Analysis
 #### Extra Analysis
 
-### Results
-### Conclusion
+## Results
+## Conclusion
