@@ -75,7 +75,7 @@ Here are the attribute I assigned with each before starting the analysis:
 * audience: everyone
 
 
-After coming up with these, I formulated three hypotheses.
+After coming up with these, I formulated two hypotheses.
 
 First: I predicted that a classifier would be able to classify R or D most accurately with the speeches, then the debates, then the platforms. This was because I figured that the speeches would have the most polarizing words used, then the debates where the candidates might use "hot topic" words to persuade voters to their side, then the platform, which was considerably the most informative of documents
 
