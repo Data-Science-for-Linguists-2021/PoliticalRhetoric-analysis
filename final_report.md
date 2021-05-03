@@ -91,6 +91,8 @@ After this, I tried removing certain words from the speeches. I thought that may
 More in that section: So here's where things get... weird.
 I really wanted to find informative features, I really wouldn't be able to do much of this project without it. Because there were only two targets for the classifier, for some reason, the coefficients ended up merging together as one array. I found a code online, that was based off of the print_top function but for cases like mine that I only had two target, and I tried it, but as I note in the notebook, it seemed *not right*. So, in my desperation, I ended up adding an extra row in the conv_speeches dataframe that had a neutral affiliation, with only a "." as the text. This ended up giving me the most informative features for both R and D, though because of this, I wonder if they became more polarizing due to the added neutrality. I figured, though, since the accuracy was so high, that there had to be some truth to the fact that the informative features were so different and dividing, and it ended up making sense with my hypothesis, so I let it be. Thinking about it now, I could have changed the affiliation of the speakers that were considerably more *moderate* in their stances, so I wonder how that would have changed things.
 #### Debate Analysis
+The debate analysis notebook can be found [here on github](https://github.com/Data-Science-for-Linguists-2021/PoliticalRhetoric-analysis/blob/main/analysis_notebooks/debate_analysis.ipynb) as well as hopefully nbviewer when the \#503 error lets up.
+
 So for the debates, I imported the ONLY D AND R vp debate csv and pres debate csv, the ALL SPEAKERS vp debate csv and pres debate csv, and then concatenated both csvs into all debates and all FULL debates.
 
 So, I also tried logistic regression here with the thought that sentences length and other \~meta\~ data would be informative. Basically, I wanted to know if there was something to be said for candidates who interrupted more or used longer sentences. (Organizational). This was a flop and, like the speech analysis, didn't actually mean much. I started with the pres debate (ONLY D AND R), but after seeing the result, I'll be honest, I figured that that would be the general result for the rest.
@@ -101,15 +103,19 @@ I wanted to find informational features once again, and luckily this time I didn
 
 After I was realizing that this entire notebook was basically conflicting with my first hypothesis, I tried gridsearch to see if I can find better parameters, but that ended up being actually lower.
 #### Platform Analysis
+The platform analysis notebook can be found [here on github](https://github.com/Data-Science-for-Linguists-2021/PoliticalRhetoric-analysis/blob/main/analysis_notebooks/platform_analysis.ipynb) as well as hopefully nbviewer when the \#503 error lets up.
+
 The platform analysis consisted of the same steps as above. This was the third analysis I started, so I already knew where I was going with it.
 
 The biggest thing was that I stripped certain words, like I tried with the speech analysis, but this time I knew it was needed. I've read both platforms, so I knew this was something I needed to do, lest the analysis would throw off my hypothesis completely.
 
 I started with a grid search here, but instead of just straight up using the parameters, I used the best parameters as a starting point. From there, I was able to get the accuracy up to 82% with an svc classifier. This was actually higher than I expected, as I thought that platform would be the lowest after every analysis. (Words and adjectives).
 
-I used the same process that I used with the speeches for finding the most informative features. I made the neutral text "yo" this time, and if you look at the results of the print_top function, you'll see that the "none" features are in alphabetical order, which told me that maybe this was okay for some desperate feature exraction. 
+I used the same process that I used with the speeches for finding the most informative features. I made the neutral text "yo" this time, and if you look at the results of the print_top function, you'll see that the "none" features are in alphabetical order, which told me that maybe this was okay for some desperate feature exraction.
 #### Extra Analysis
+The extra analysis notebook can be found [here on github](https://github.com/Data-Science-for-Linguists-2021/PoliticalRhetoric-analysis/blob/main/analysis_notebooks/extra_analysis.ipynb) as well as hopefully nbviewer when the \#503 error lets up.
 
+My extra analysis dealt with my second hypothesis. I found adjectives in the speeches, debates, and platform and compared D and R with the amounts. I also compared the "modes" of persuasion with the \# of adjectives, but because the texts were all unevenly distributed against each other, I also foud the average \# of the adjectives and compared that. As an extra extra analysis, I also found the most frequently used adjectives, and the most informative adjective, and also the use of the comparative and superlative adjectives between Donald Trump and Joe Biden. ([Trump's Superlative Addition is Funny, Absurd, and Possibly Dangerous](https://www.esquire.com/news-politics/a15335203/trump-superlatives/)).
 ## Results
 ![Speech](images/speech.png)
 ![Debate](images/corrected_debate.png)
