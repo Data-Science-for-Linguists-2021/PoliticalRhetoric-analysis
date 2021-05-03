@@ -15,8 +15,8 @@ Emma Tarcson \| egt12@pitt.edu
   * [Platform Analysis](#Platform-Analysis)
   * [Extra Analysis](#Extra-Analysis)
 * [Results](#Results)
-  * [Results of Hypothesis \#1](#Results-of-Hypothesis-#1)
-  * [Results of Hypothesis \#2](#Results-of-Hypothesis-#2)
+  * [Results of First Hypothesis](#Results-of-First-Hypothesis)
+  * [Results of Second Hypothesis](#Results-of-Second-Hypothesis)
 * [Conclusion](#Conclusion)
 
 ## Background
@@ -121,7 +121,7 @@ My extra analysis dealt with my second hypothesis. I found adjectives in the spe
 ## Results
 Finally some plots!
 
-#### Results of the Hypothesis #1:
+#### Results of the First Hypothesis
 
 Speech Analysis Confusion Matrix:
 ![Speech](images/speech.png)
@@ -155,7 +155,7 @@ I was not impressed by the debates, though, but it also showed that maybe those 
 
 Seen above: This definitely tells me a bit more about the topics being emphasized by each side. If you're wondering if this made the accuracy go up, though, spoiler-alert: it didn't. I really am curious why this looks so much more telling, however...
 
-#### Results of Hypothesis #2
+#### Results of Second Hypothesis
 
 ![Speech Adjectives](images/adj_speech.png)
 ![Debate Adjectives](images/adj_alldebate.png)
