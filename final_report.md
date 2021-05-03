@@ -196,6 +196,9 @@ Further analysis involved looking at the use of Comparative and Superlative adje
 ## Conclusion
 In conclusion, this project was a lot of fun and I was able to explore a topic that I'm really interested in. As with most things, I definitely wish I could go back and play with a lot of different things, but I honestly feel like this isn't the end for me with this project (even though technically it is). I was honestly really excited about my results, and I've embarrassingly told a lot of people (who are probably not as interested in politics as me) about what I found out, which is exciting within its self. So I can see myself using this information and the python knowledge I've accumulated this entire trip in the future.
 
-I'm pretty sad that by the time of me turning this in, the nbviewer page will probably not have worked yet, meaning that I wasn't able to convert the jupyter notebooks into a format that would allow people to view the table of contents, but alas \:(
+I'm pretty sad that by the time of me turning this in, the nbviewer page will probably not have worked yet, it could have also been something I did wrong, but it means that I wasn't able to convert the jupyter notebooks into a format that would allow people to view the table of contents, but alas \:(
+
+(here's the message. I don't really know what it means, so it might be something wrong on my end!)
+![Error Message](/Users/emmatarcson/Documents/error.png)
 
 But let's not end on a sad note! Thank you so much Na Rae, Joey, and the whole of the Data Science for Linguists 2021 class for your help and useful feedback throughout this entire semester!
