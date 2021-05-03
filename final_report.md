@@ -101,6 +101,13 @@ I wanted to find informational features once again, and luckily this time I didn
 
 After I was realizing that this entire notebook was basically conflicting with my first hypothesis, I tried gridsearch to see if I can find better parameters, but that ended up being actually lower.
 #### Platform Analysis
+The platform analysis consisted of the same steps as above. This was the third analysis I started, so I already knew where I was going with it.
+
+The biggest thing was that I stripped certain words, like I tried with the speech analysis, but this time I knew it was needed. I've read both platforms, so I knew this was something I needed to do, lest the analysis would throw off my hypothesis completely.
+
+I started with a grid search here, but instead of just straight up using the parameters, I used the best parameters as a starting point. From there, I was able to get the accuracy up to 82% with an svc classifier. This was actually higher than I expected, as I thought that platform would be the lowest after every analysis. (Words and adjectives).
+
+I used the same process that I used with the speeches for finding the most informative features. I made the neutral text "yo" this time, and if you look at the results of the print_top function, you'll see that the "none" features are in alphabetical order, which told me that maybe this was okay for some desperate feature exraction. 
 #### Extra Analysis
 
 ## Results
