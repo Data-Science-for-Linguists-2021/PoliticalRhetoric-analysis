@@ -160,17 +160,42 @@ Seen above: This definitely tells me a bit more about the topics being emphasize
 
 #### Results of the Second Hypothesis
 
+For the second hypothesis I was interested in adjectives and how they were used not only between R and D, but also how they were used when comparing between the different "modes" of persuasion.
+
+Here are the results of that analysis:
+
 ![Speech Adjectives](images/adj_speech.png)
 ![Debate Adjectives](images/adj_alldebate.png)
-![Pres](images/adj_pres.png)
-![VP](images/adj_vp.png)
-![Donnie](images/adj_donnie.png)
 ![Platform Adjectives](images/adj_plat.png)
+
+These use the counts of adjectives, and shows that Republicans do, in fact, generally use more adjectives. this supports my hypothesis, and made me wonder what kind of adjectives were we talking. So, I found the most frequently used adjectives between both parties, shown in the graph below.
+
 ![ADJ Freq](images/adj_freq.png)
 
-![Compare Count](images/count_adj_all.png)
-![Compare AVG](images/avg_adj_all.png)
+This threw me off a bit because the adjectives here were kind of basic and not really all that interesting, and I started wondering if maybe Republicans just used "American" more often or something like that, so I took a peak at the adjectives being used in the debate speeches:
 
 ![Dem ADJ](images/dem_adj.png)
 ![Rep ADJ](images/rep_adj.png)
+
+When I ran the adjectives through print_top, I found the most informative adjectives, which actually surprised me. Sure, the most frequently used adjectives were pretty neutral, but when looking at what kind of adjs Republicans and Democrats were using, I can definitely tell the Republicans were using more \~fancy\~ words than the Democrats, who while they used adjectives, were using less and were using more neutral ones.
+
+After this, since the other analysis I was working with involved comparing the three "modes", I compared them all in bar graphs below.
+
+![Compare Count](images/count_adj_all.png)
+
+After realizing that count wouldn't work for this, I used the average:
+
+![Compare AVG](images/avg_adj_all.png)
+
+The debates were using more, than the platforms, then the speeches. My hypothesis was correct for the debates being the first, but once again platforms surprised me. I think this could definitley be the result of the frequently used adjectives list above, where the platforms are just using more words like "American", "public", etc.
+
+Further analysis involved looking at the use of Comparative and Superlative adjectives between Donald Trump and Joe Biden, and the results were not surprising but definitely interesting to see so outwardly obvious.
+
+![Donnie](images/adj_donnie.png)
+
 ## Conclusion
+In conclusion, this project was a lot of fun and I was able to explore a topic that I'm really interested in. As with most things, I definitely wish I could go back and play with a lot of different things, but I honestly feel like this isn't the end for me with this project (even though technically it is). I was honestly really excited about my results, and I've embarrassingly told a lot of people (who are probably not as interested in politics as me) about what I found out, which is exciting within its self. So I can see myself using this information and the python knowledge I've accumulated this entire trip in the future.
+
+I'm pretty sad that by the time of me turning this in, the nbviewer page will probably not have worked yet, meaning that I wasn't able to convert the jupyter notebooks into a format that would allow people to view the table of contents, but alas \:(
+
+But let's not end on a sad note! Thank you so much Na Rae, Joey, and the whole of the Data Science for Linguists 2021 class for your help and useful feedback throughout this entire semester!
