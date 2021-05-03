@@ -199,6 +199,6 @@ In conclusion, this project was a lot of fun and I was able to explore a topic t
 I'm pretty sad that by the time of me turning this in, the nbviewer page will probably not have worked yet, it could have also been something I did wrong, but it means that I wasn't able to convert the jupyter notebooks into a format that would allow people to view the table of contents, but alas \:(
 
 (here's the message. I don't really know what it means, so it might be something wrong on my end!)
-![Error Message](/Users/emmatarcson/Documents/error.png)
+![Error Message](images/error.png)
 
 But let's not end on a sad note! Thank you so much Na Rae, Joey, and the whole of the Data Science for Linguists 2021 class for your help and useful feedback throughout this entire semester!
