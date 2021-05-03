@@ -85,26 +85,26 @@ Second: I wanted to take a peak into the adjectives used and see how that would 
 #### Extra Analysis
 
 ## Results
-![Speech](Images/speech.png)
-![Debate](Images/corrected_debate.png)
-![Platform](Images/platform.png)
+![Speech](images/speech.png)
+![Debate](images/corrected_debate.png)
+![Platform](images/platform.png)
 
-![Speech Words](Images/speech_words.png)
-![Platform Words](Images/platform_words.png)
-![Debate Words](Images/debate_words.png)
-![Debate Bigrams](Images/debate_bigrams.png)
+![Speech Words](images/speech_words.png)
+![Platform Words](images/platform_words.png)
+![Debate Words](images/debate_words.png)
+![Debate Bigrams](images/debate_bigrams.png)
 
-![Speech Adjectives](Images/adj_speech.png)
-![Debate Adjectives](Images/adj_alldebate.png)
-![Pres](Images/adj_pres.png)
-![VP](Images/adj_vp.png)
-![Donnie](Images/adj_donnie.png)
-![Platform Adjectives](Images/adj_plat.png)
-![ADJ Freq](Images/adj_freq.png)
+![Speech Adjectives](images/adj_speech.png)
+![Debate Adjectives](images/adj_alldebate.png)
+![Pres](images/adj_pres.png)
+![VP](images/adj_vp.png)
+![Donnie](images/adj_donnie.png)
+![Platform Adjectives](images/adj_plat.png)
+![ADJ Freq](images/adj_freq.png)
 
-![Compare Count](Images/count_adj_all.png)
-![Compare AVG](Images/avg_adj_all.png)
+![Compare Count](images/count_adj_all.png)
+![Compare AVG](images/avg_adj_all.png)
 
-![Dem ADJ](Images/dem_adj.png)
-![Rep ADJ](Images/rep_adj.png)
+![Dem ADJ](images/dem_adj.png)
+![Rep ADJ](images/rep_adj.png)
 ## Conclusion
