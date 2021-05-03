@@ -15,8 +15,8 @@ Emma Tarcson \| egt12@pitt.edu
   * [Platform Analysis](#Platform-Analysis)
   * [Extra Analysis](#Extra-Analysis)
 * [Results](#Results)
-  * [Results of First Hypothesis](#Results-of-First-Hypothesis)
-  * [Results of Second Hypothesis](#Results-of-Second-Hypothesis)
+  * [Results of First Hypothesis](#Results-of-the-First-Hypothesis)
+  * [Results of Second Hypothesis](#Results-of-the-Second-Hypothesis)
 * [Conclusion](#Conclusion)
 
 ## Background
@@ -124,16 +124,19 @@ Finally some plots!
 #### Results of the First Hypothesis
 
 Speech Analysis Confusion Matrix:
+
 ![Speech](images/speech.png)
 
 Accuracy Score: 95.2%
 
 Debate Analysis Confusion Matrix:
+
 ![Debate](images/corrected_debate.png)
 
 Accuracy Score: 77.6%
 
 Platform Analysis Confusion Matrix:
+
 ![Platform](images/platform.png)
 
 Accuracy Score: 80.7%
@@ -155,7 +158,7 @@ I was not impressed by the debates, though, but it also showed that maybe those 
 
 Seen above: This definitely tells me a bit more about the topics being emphasized by each side. If you're wondering if this made the accuracy go up, though, spoiler-alert: it didn't. I really am curious why this looks so much more telling, however...
 
-#### Results of Second Hypothesis
+#### Results of the Second Hypothesis
 
 ![Speech Adjectives](images/adj_speech.png)
 ![Debate Adjectives](images/adj_alldebate.png)
