@@ -15,6 +15,8 @@ Emma Tarcson \| egt12@pitt.edu
   * [Platform Analysis](#Platform-Analysis)
   * [Extra Analysis](#Extra-Analysis)
 * [Results](#Results)
+  * [Results of Hypothesis \#1](#Results of Hypothesis \#1)
+  * [Results of Hypothesis \#2](#Results of Hypothesis \#2)
 * [Conclusion](#Conclusion)
 
 ## Background
@@ -117,14 +119,43 @@ The extra analysis notebook can be found [here on github](https://github.com/Dat
 
 My extra analysis dealt with my second hypothesis. I found adjectives in the speeches, debates, and platform and compared D and R with the amounts. I also compared the "modes" of persuasion with the \# of adjectives, but because the texts were all unevenly distributed against each other, I also foud the average \# of the adjectives and compared that. As an extra extra analysis, I also found the most frequently used adjectives, and the most informative adjective, and also the use of the comparative and superlative adjectives between Donald Trump and Joe Biden. ([Trump's Superlative Addition is Funny, Absurd, and Possibly Dangerous](https://www.esquire.com/news-politics/a15335203/trump-superlatives/)).
 ## Results
+Finally some plots!
+
+#### Results of the Hypothesis \#1:
+
+Speech Analysis Confusion Matrix:
 ![Speech](images/speech.png)
+
+Accuracy Score: 95.2%
+
+Debate Analysis Confusion Matrix:
 ![Debate](images/corrected_debate.png)
+
+Accuracy Score: 77.6%
+
+Platform Analysis Confusion Matrix:
 ![Platform](images/platform.png)
+
+Accuracy Score: 80.7%
+
+As you can see, the ranking of accuracy by classifier is Speech -> Platform ->  Debate. This goes against my hypothesis I expected debate to be second and platform to be last. I had expected the speeches to have the most polarizing words, then possibly the debates as they were still persuasive in nature, then the platforms which includes more informative text. But this result showed that platforms were actually more dividing and the words were more informative between parties than debates.
+
+A couple new theories came to mind. Perhaps I had the attributes of platforms and debates switched. Perhaps the platforms were actually more polarizing with the topics they discussed with the intention to pull people in by similar interests, while the debates were more neutral, possibly because of the moderator and that they had to perform for an audience that had to be looked at as neutral, so they matched that. Or maybe since they both had to discuss the same topics, this caused the informative words to not have a lot of weight toward either side.
+
+Here are the informative features I found in each analysis:
 
 ![Speech Words](images/speech_words.png)
 ![Platform Words](images/platform_words.png)
 ![Debate Words](images/debate_words.png)
+
+As you can see, the speeches and platforms have almost categorical words the whole way down the line. Personally, I could look at those and guess which is which. There is definitely some sort of rhetorical subjecting being presented by both, which makes the accuracy scores make a lot of sense.
+
+I was not impressed by the debates, though, but it also showed that maybe those "hot topic" words were just nto as used in the debates (as they did have to think pretty quick and spontaneous). So, I also decided to take a look at debate bigrams as I wanted to know if that could tell me more about the topics each side was discussing.
 ![Debate Bigrams](images/debate_bigrams.png)
+
+Seen above: This definitely tells me a bit more about the topics being emphasized by each side. If you're wondering if this made the accuracy go up, though, spoiler-alert: it didn't. I really am curious why this looks so much more telling, however...
+
+#### Results of Hypothesis \#2
 
 ![Speech Adjectives](images/adj_speech.png)
 ![Debate Adjectives](images/adj_alldebate.png)
