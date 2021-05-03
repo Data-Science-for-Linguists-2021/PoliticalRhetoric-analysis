@@ -85,4 +85,26 @@ Second: I wanted to take a peak into the adjectives used and see how that would 
 #### Extra Analysis
 
 ## Results
+![Speech](Images/speech.png)
+![Debate](Images/corrected_debate.png)
+![Platform](Images/platform.png)
+
+![Speech Words](Images/speech_words.png)
+![Platform Words](Images/platform_words.png)
+![Debate Words](Images/debate_words.png)
+![Debate Bigrams](Images/debate_bigrams.png)
+
+![Speech Adjectives](Images/adj_speech.png)
+![Debate Adjectives](Images/adj_alldebate.png)
+![Pres](Images/adj_pres.png)
+![VP](Images/adj_vp.png)
+![Donnie](Images/adj_donnie.png)
+![Platform Adjectives](Images/adj_plat.png)
+![ADJ Freq](Images/adj_freq.png)
+
+![Compare Count](Images/count_adj_all.png)
+![Compare AVG](Images/avg_adj_all.png)
+
+![Dem ADJ](Images/dem_adj.png)
+![Rep ADJ](Images/rep_adj.png)
 ## Conclusion
